@@ -9,23 +9,16 @@
 <hr>
 <form method="post">
     {{ symp_form.sympt_name.label }}{{ symp_form.sympt_name }}<br>
-    {{ symp_form.submit }}<br>
-    {# <label>Symptom:</label> <input type="text" name="symptom_name"><br>
-    {#    <input type="submit"  value="Submit"> #}
+    {{ symp_form.submit1 }}<br>
 </form>
 
 <h2 style="background-color:darkgray;">功能二：处方合理性判断——</h2>
 <label>请在此处键入处方信息：</label>
 <form name="script" method="post">
-    {{ scri_form.sympt_name.label }}{{ scri_form.sympt_name }}<br>
+    {{ scri_form.sympt_name2.label }}{{ scri_form.sympt_name2 }}<br>
     {{ scri_form.drug1_name.label }}{{ scri_form.drug1_name }}<br>
     {{ scri_form.drug2_name.label }}{{ scri_form.drug2_name }}<br>
-    {{ scri_form.submit }}<br>
-
-    {#  <label>Symptom:</label> <input type="text" name="symptom_name2"><br>
-    {#    <label>drug1:</label> <input type="text" name="drug1"><br>
-    {#    <label>drug2:</label> <input type="text" name="drug2"><br>
-    {#    <input type="submit"  value="Submit"> #}
+    {{ scri_form.submit2 }}<br>
 
 </form>
 </body>
