@@ -6,18 +6,27 @@
 </head>
 <body>
 <h2 style="background-color:darkgray;">功能一：查询可用药品——</h2>
-<form name="symptom" method="post">
-    <label>Symptom:</label> <input type="text" name="symptom_name"><br>
-    <input type="submit"  value="Submit">
+<hr>
+<form method="post">
+    {{ symp_form.sympt_name.label }}{{ symp_form.sympt_name }}<br>
+    {{ symp_form.submit }}<br>
+    {# <label>Symptom:</label> <input type="text" name="symptom_name"><br>
+    {#    <input type="submit"  value="Submit"> #}
 </form>
 
 <h2 style="background-color:darkgray;">功能二：处方合理性判断——</h2>
 <label>请在此处键入处方信息：</label>
 <form name="script" method="post">
-    <label>Symptom:</label> <input type="text" name="symptom_name2"><br>
-    <label>drug1:</label> <input type="text" name="drug1"><br>
-    <label>drug2:</label> <input type="text" name="drug2"><br>
-    <input type="submit"  value="Submit">
+    {{ scri_form.sympt_name.label }}{{ scri_form.sympt_name }}<br>
+    {{ scri_form.drug1_name.label }}{{ scri_form.drug1_name }}<br>
+    {{ scri_form.drug2_name.label }}{{ scri_form.drug2_name }}<br>
+    {{ scri_form.submit }}<br>
+
+    {#  <label>Symptom:</label> <input type="text" name="symptom_name2"><br>
+    {#    <label>drug1:</label> <input type="text" name="drug1"><br>
+    {#    <label>drug2:</label> <input type="text" name="drug2"><br>
+    {#    <input type="submit"  value="Submit"> #}
+
 </form>
 </body>
 </html>
