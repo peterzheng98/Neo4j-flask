@@ -5,21 +5,9 @@
     <title>home</title>
 </head>
 <body>
-<h2 style="background-color:darkgray;">功能一：查询可用药品——</h2>
-<hr>
-<form method="post">
-    {{ symp_form.sympt_name.label }}{{ symp_form.sympt_name }}<br>
-    {{ symp_form.submit1 }}<br>
-</form>
-
-<h2 style="background-color:darkgray;">功能二：处方合理性判断——</h2>
-<label>请在此处键入处方信息：</label>
-<form name="script" method="post">
-    {{ scri_form.sympt_name2.label }}{{ scri_form.sympt_name2 }}<br>
-    {{ scri_form.drug1_name.label }}{{ scri_form.drug1_name }}<br>
-    {{ scri_form.drug2_name.label }}{{ scri_form.drug2_name }}<br>
-    {{ scri_form.submit2 }}<br>
-
-</form>
+<input type="button" onclick="window.location.href='{{ url_for("searchDrug") }}'" value="功能一：查询可用药品">
+<br>
+<br>
+<input type="button" onclick="window.location.href='{{ url_for("checkScript") }}'" value="功能二：判断处方合理性">
 </body>
 </html>
