@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_neo.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_neo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/suitable_drugs.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/suitable_drugs.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +82,7 @@
       <workItem from="1580110726990" duration="12779000" />
       <workItem from="1580289899499" duration="6207000" />
       <workItem from="1580303328594" duration="773000" />
+      <workItem from="1580350108376" duration="5300000" />
     </task>
     <task id="LOCAL-00001" summary="now,I can use redirect!">
       <created>1580116985681</created>
@@ -113,26 +114,26 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="403" y="26" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1580126441931" />
-    <state width="1431" height="225" key="GridCell.Tab.0.bottom" timestamp="1580304350335">
+    <state width="1431" height="225" key="GridCell.Tab.0.bottom" timestamp="1580361677854">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="225" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1580304350335" />
-    <state width="1431" height="225" key="GridCell.Tab.0.center" timestamp="1580304350335">
+    <state width="1431" height="225" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1580361677854" />
+    <state width="1431" height="225" key="GridCell.Tab.0.center" timestamp="1580361677854">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="225" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1580304350335" />
-    <state width="1431" height="225" key="GridCell.Tab.0.left" timestamp="1580304350334">
+    <state width="1431" height="225" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1580361677854" />
+    <state width="1431" height="225" key="GridCell.Tab.0.left" timestamp="1580361677854">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="225" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1580304350334" />
-    <state width="1431" height="225" key="GridCell.Tab.0.right" timestamp="1580304350335">
+    <state width="1431" height="225" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1580361677854" />
+    <state width="1431" height="225" key="GridCell.Tab.0.right" timestamp="1580361677854">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="225" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1580304350335" />
-    <state x="188" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1580303329400">
+    <state width="1431" height="225" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1580361677854" />
+    <state x="188" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1580350142340">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="188" y="257" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1580303329400" />
+    <state x="188" y="257" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1580350142340" />
     <state x="593" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580126421004">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -143,6 +144,6 @@
     <state x="78" y="185" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1579942466959" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/learn_flask$learn_flask.coverage" NAME="learn_flask Coverage Results" MODIFIED="1580303345346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/learn_flask$learn_flask.coverage" NAME="learn_flask Coverage Results" MODIFIED="1580361677845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

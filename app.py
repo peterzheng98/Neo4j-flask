@@ -48,11 +48,9 @@ def checkScript():
 
 @app.route('/drugs/?<string:symp_name>')
 def getdrug(symp_name):
-    drug_result = get_drug(symp_name)
+    drug_result,product_result = get_drug(symp_name)
     print('*****************')
-    print(drug_result)
-    return render_template('suitable_drugs.html', drug_result=drug_result)
-
+    return render_template('suitable_drugs.html', drug_result=drug_result,product_result=product_result)
 
 if __name__  ==  '__main__':
     app.run()

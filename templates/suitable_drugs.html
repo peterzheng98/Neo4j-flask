@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <title>适用药物</title>
 </head>
+<style>
+    h1{color:orange}
+    p{color:goldenrod}
+</style>
 <body>
-<label>可用药品：</label>
+<h1>可用药物：</h1>
 <hr>
     {% for drugs in drug_result %}
         {{ drugs }}<br>
+        <p>药品：</p>
+        {{ product_result[drugs] }}<br>
+        <br>
     {% endfor %}
 <hr>
 </body>
